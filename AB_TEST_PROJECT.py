@@ -3,7 +3,6 @@
 #################################################
 #<<<Şule AKÇAY >>>
 
-#istatistiksel testler için purchase metriğine odaklanmalısınız.
 
 #kütüphaneleri ekledim
 
@@ -126,22 +125,4 @@ print('Test İstatistiği = %.2f, p-değeri = %.2f' % (test_istatistigi, pvalue)
 #H0 reddedilmez.
 
 
-################SORULAR#########################
-#1- Bu A / B testinin hipotezini nasıl tanımlarsınız?
-
-# H0: M1 = M2 (... iki grup ortalamaları arasında ist ol.anl.fark yoktur.)
-# H1: M1 != M2 (...vardır)
-
-#2- İstatistiksel olarak anlamlı sonuçlar çıkarabilir miyiz?
-# H0 reddedilemez.İki grup ortalamaları arasında istatiksel olarak fark yoktur.
-
-#3- Hangi testi kullandınız? Neden?
-#Bağımsız örneklem t testi, levene ve shapiro testi kullanıldı.Bunun nedeni elimizde 2 adet farklı yöntem var.Bu iki yöntemden hangisinin bizler için daha karlı
-#çıkabileceğini hesaplamaya çalışıyoruz.Bunlar maxsimum bidding(maksimum teklif verme), average bidding(ortalama teklif verme.
-#Bunlardan hangisi daha kullanışlı müşteriler için amacımız onu bulmak.
-
-#4- Soru 2'ye verdiğiniz cevaba göre, müşteriye tavsiyeniz nedir?
-#Son çıkan sonuçta H0 'ı değerini red edemeyeceğimiz için maxsimum bidding(maksumum teklif verme) ve
-#average bidding(ortalama teklif verme) her ikiside kullanılabilir.Gözlem sayısı 40 olduğu için
-#daha net kararlar verebilmek amacıyla gözlem sayımız arttırılabilir.Uzun bir süre kontrol edilebilir.
 
